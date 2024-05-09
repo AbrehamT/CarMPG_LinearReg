@@ -1,2 +1,3 @@
 # CarMPG_LinearReg
-Calculating MPG of cars utilizing Linear Regression Model
+A linear regression model that predicts the MPG of cars. The prediction is based on 6 input feautres which had been normalized to scale during the preprocessing stage. Additionally, missing values have been removed from the dataset in the preprocessing stage. For future implementations, it's possible that a lazy learning model like KNN can be used to fill in these missing values and make the model more complete. 
+The RMSE, Root Mean Squared Error, loss function has been chosen as the loss function to find out the performance of the model and the basis to perform the gradient descent on, which is how the model learns. A simple gradient descent function was chosen that finds the gradient of the whole training model, so nothing like Stochastic Gradient Descent or Mini-Batch Gradient Descent. 
